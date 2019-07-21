@@ -15,7 +15,7 @@ function RealtimeTelemetryPlugin() {
 
         var provider = {
             supportsSubscribe: function (domainObject) {
-                return domainObject.type === 'example.telemetry';
+                return domainObject.type === 'projeto_jupiter.telemetry';
             },
             subscribe: function (domainObject, callback) {
                 listener[domainObject.identifier.key] = callback;

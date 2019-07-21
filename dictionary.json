@@ -1,6 +1,6 @@
 {
-    "name": "Example Spacecraft",
-    "key": "sc",
+    "name": "Consagrado",
+    "key": "consagrado",
     "measurements": [
         {
             "name": "Fuel",
